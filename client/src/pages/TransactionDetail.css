@@ -1,0 +1,66 @@
+
+:root {
+    --bg: #ffffff;
+    --bg-light: #f0f0f0;
+    --bg-light-fixed: #e0e0e0;
+    --primary: #be1adb;
+    --text-primary: #111111;
+    --text-secondary: #48494a;
+    --card: #ffffff;
+    --button: #5c5b5b;
+  }
+  
+  /* Dark theme variables */
+  [data-theme="dark"] {
+    --bg: #15171e;
+    --bg-light: #1c1e27;
+    --bg-light-fixed: #2a2d3b;
+    --primary: #be1adb;
+    --text-primary: #f2f3f4;
+    --text-secondary: #b1b2b3;
+    --card: #121212;
+    --button: #5c5b5b;
+  }
+  
+  .transaction-detail {
+    padding: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+  }
+  
+  .grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .card {
+    background-color: var(--card);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+  }
+  
+  .text {
+    font-size: 16px;
+    color: var(--text-secondary);
+    word-break: break-all;
+  }
+  
